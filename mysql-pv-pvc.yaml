@@ -4,7 +4,7 @@ metadata:
   name: mysql-pv
 spec:
   capacity:
-    storage: 10Gi
+    storage: 1Gi
   volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce
@@ -25,5 +25,5 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 10Gi
+      storage: 1Gi
   storageClassName: manual
